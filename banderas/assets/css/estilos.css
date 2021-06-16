@@ -1,0 +1,409 @@
+h1 {
+font-family:'Times New Roman', Times, serif;}
+h2 {
+font-family:'Times New Roman', Times, serif;}
+
+.bandera__colombia {
+    width: 450;
+    height: 250px;
+    padding: 0px !important;
+    box-sizing: border-box !important;
+}
+
+.bandera__colombia div {
+    padding: 0px !important;
+    margin: 0px !important;
+    box-sizing: border-box !important;
+    border: none;
+}
+
+.amarillo__colombia {
+    background-color:rgb(255, 214, 30);
+    width: 450px;
+    height: 130px;
+}
+.azul__colombia {
+    background-color: rgb(2, 5, 163);
+    width: 450px;
+    height: 70px;
+}
+
+.rojo__colombia { 
+    background-color:red;
+    display: inline-block;
+    width: 450px;
+    height: 70px;
+    }
+
+    
+
+    .bandera__mexico {
+        width: 450px;
+        box-sizing: border-box !important;
+        padding:0px !important;
+    }
+
+    .bandera__mexico div {
+        padding:0px !important;
+        margin:0px !important;
+        border: none;
+        box-sizing: border-box !important;
+    }
+
+    .verde__mexico { 
+        height: 270px;
+        width: 147px;
+        background-color: rgb(31, 104, 40);
+        display: inline-block;
+
+    }
+
+    .blanco__mexico {
+        height: 270px;
+        width: 147px;
+        background-color:white;
+        display: inline-block;
+    
+    }
+
+    .rojo__mexico {
+        height: 270px;
+        width: 147px;
+        display: inline-block;
+        background-color: rgb(233, 13, 13);
+     
+    }
+
+    .Escudo__mexico {
+        width: 90px;
+        height: 90px;
+        left: -275px;
+        bottom: 90px;
+        position: relative;
+      
+    } 
+
+
+    .bandera__españa {
+        width: 450px;
+        height: 250px;
+        padding: 0px !important;
+        box-sizing: border-box !important;
+    }
+    
+    .bandera__españa div {
+        padding: 0px !important;
+        margin: 0px !important;
+        border: none;
+        box-sizing: border-box !important;
+    }
+
+    .rojo_uno__españa {
+        background-color:red;
+        height: 70px;
+        width: 450px;
+       
+    }
+
+    .amarillo__españa {
+        background-color:rgba(255, 217, 0, 0.952);
+        width: 450px;
+        height: 150px
+    }
+
+    .rojo_dos__españa {
+        background-color:red;
+        width: 450px;
+        height: 70px;
+    }
+    
+    .Escudo__españa {
+        position: relative;
+        left: 180px;
+        bottom: 200px;
+        width: 100px;
+        height: 110px;
+    }
+
+
+
+    .bandera__Japon{
+        width: 450px;
+        height: 250px;
+        padding: 0px !important;
+        box-sizing: border-box !important;
+    }
+    .blanco__japon{
+        width: 450px;
+        height: 250px;
+        background-color:white;
+        border: 1px solid black;
+    }
+    .rojo__japon{
+        width: 150px;
+        height: 150px;
+        left: 150px;
+        bottom: 200px;
+        background: rgb(194, 7, 7);
+        border-radius: 1000px;
+        position: relative;
+     
+    }
+
+    
+    .bandera__Islandia {
+            width: 450px;
+            height: 250px;
+            padding: 0px !important;
+            box-sizing: border-box !important;
+    }
+
+    .azul__islandia {
+            width: 450px;
+            height: 250px;
+            background-color:rgb(41, 6, 138);
+           
+    }
+
+    .rojo__islandia {
+            background: red;
+            height: 250px;
+            width: 20px;
+            position: relative;
+            bottom: 500px;
+            left: 110px;
+    }
+
+    .rojo__islandia:after {
+            background: red;
+            content: "";
+            top: 115px;
+            height: 20px;
+            width: 450px;
+            left: -110px;
+            position: absolute;
+            
+           
+    }
+
+    .blanco__islandia {
+            background: white;
+            height: 250px;
+            width: 40px;
+            position: relative;
+            bottom: 250px;
+            left: 100px;
+    }
+
+    .blanco__islandia:after {
+            background: white;
+            content: "";
+            top: 105px;
+            height: 40px;
+            width: 450px;
+            left: -100px;
+            position: absolute;
+     
+     
+    }
+        
+    .bandera__chile {
+        width: 450px;
+        height: 250px;
+        padding: 0px !important;
+        box-sizing: border-box !important;
+    }
+
+    .azul__chile {
+        width: 130px;
+        height: 100px;
+        background-color: rgb(14, 14, 196);
+        display: inline-block;
+    }
+
+    .blanco__chile {
+        width:264px ;
+        height:100px ;
+        background-color: white;
+        border: 20px solid rgba(0, 0, 0, 0.014);
+        display: inline-block;
+    }
+
+    .rojo__chile {
+        width: 450px;
+        height: 130px;
+        background-color: red;
+        position: relative;
+        bottom: 5px
+    }
+
+    .estrella__chile{
+     
+        margin: 50px 0;
+        position: relative;
+        color:black;
+        width: 0px;
+        height: 0px;
+        border-right: 100px solid transparent;
+        border-bottom: 70px solid white;
+        border-left: 90px solid transparent;
+        transform: rotate(38deg);
+        bottom: 260px;
+        right: 15px;
+        transform: scale(10%);
+            
+    }
+            
+        .estrella__chile:before {
+            
+        border-bottom: 80px solid white;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: -48px;
+        left: -65px;
+        display: block;
+        content: '';
+        transform: rotate(-39deg);
+            
+    }
+            
+        .estrella__chile:after {
+        position: absolute;
+        display: block;
+        color: white;
+        top: 3px;
+        left: -105px;
+        width: 0px;
+        height: 0px;
+        border-right: 100px solid transparent;
+        border-bottom: 70px solid white;
+        border-left: 100px solid transparent;
+        transform: rotate(-73deg);
+        content: '';
+            
+    }
+
+    .bandera__Brasil {
+        width: 470px;
+        height: 280px;
+        margin-top: 60px;
+        padding: 0px !important;
+        box-sizing: border-box !important;
+    }
+
+    .verde__brasil {
+        width: 450px;
+        height: 250px;
+        background-color:rgb(11, 99, 33);
+        margin-top: 30px;
+        
+    }
+
+    .amarillo__brasil {
+        width: 190px; 
+        height: 190px; 
+        left: 130px;
+        background: #f7d61b;
+        transform: rotate(45deg) skew(165deg, 165deg);
+        bottom: 220px;
+        position: relative;
+    }
+
+    .azul__brasil {
+        width: 125px;
+        height: 125px;
+        left: 160px;
+        background: #081083;
+        border-radius: 1000px;
+        bottom: 378px;
+        position: relative;
+    }
+
+
+    .bandera__pakistan {
+        width: 400px;
+        height: 250px;
+        padding: 0px !important;
+        box-sizing: border-box !important;
+    }
+
+    .verde__pakistan {
+        /* background-color:rgb(6, 56, 29);
+        width: 450px;
+        height: 280px;
+        display: inline-block !important; */
+        height: 270px;
+        width: 275px;
+        left: 40px;
+        background-color:rgb(10, 94, 28);
+        display: inline-block;
+    }
+
+    .blanco__pakistan {
+        width: 120px;
+        height: 270px;
+        background-color: rgba(254, 254, 255, 0.705);
+        display: inline-block;
+    }
+
+
+    .blanco_estrella__pakistan {
+        margin: 50px 0;
+        position: relative;
+        display: block;
+        color: rgb(255, 255, 255);
+        width: 0px;
+        height: 0px;
+        border-right: 100px solid transparent;
+        border-bottom: 70px solid rgb(255, 255, 255);
+        border-left: 100px solid transparent;
+        transform: rotate(35deg);
+        transform: scale(25%);
+        bottom: 250px;
+        left: 190px;
+    }
+
+      .blanco_estrella__pakistan:before {
+        border-bottom: 80px solid rgb(255, 255, 255);
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: -45px;
+        left: -65px;
+        display: block;
+        content: '';
+        transform: rotate(-35deg);
+    }
+    
+      .blanco_estrella__pakistan:after {
+        position: absolute;
+        display: block;
+        color: rgb(255, 255, 255);
+        top: 3px;
+        left: -105px;
+        width: 0px;
+        height: 0px;
+        border-right: 100px solid transparent;
+        border-bottom: 70px solid rgb(255, 255, 255);
+        border-left: 100px solid transparent;
+        transform: rotate(-70deg);
+        content: '';
+    }
+
+    .blanco_luna__pakistan {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        box-shadow: 15px 15px 0 0 rgb(255, 255, 255);
+        position: relative;
+        display: inline-block;
+        transform: rotate(90deg);
+        border: solid rgba(220, 20, 60, 0);
+        bottom: 390px;
+        left: 200px;
+    }
