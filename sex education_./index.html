@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <title>Hello, world!</title>
+  </head>
+
+  <!-- usar la version 4 en todo  -->
+  <!-- aplicamos flex -->
+  <!-- bg-primary sera el color de fondo  -->
+  <!-- templune nombre de la pag web  -->
+  <body>                            
+    <div class="d-flex">
+        <div id="sidebar-container" class="bg-primary">
+              <div class="logo">
+                  <!-- en el h4 se configura el estilo de la tipo no el tamaño -->
+                  <h4 class="text-light font-weight-bold">Netflix</h4>
+              </div>
+              
+              <!-- <d-block es para que cada cosa vaya en una sola linea -->
+              <!-- p-3 es el interlineado de cada palabra  -->
+              <div class="menu"> 
+                  <a href="#" class="d-block text-light p-3"><i class="icon ion-md-apps mr-2 lead"></i> Home</a>
+
+                  <!-- <a href="#" class="d-block text-light p-3"><i class="icon ion-md-people mr-2 lead"></i> Temporadas</a>
+                  <a href="#" class="d-block text-light p-3"><i class="icon ion-md-people mr-2 lead"></i> Los mas destacados</a> -->
+
+                  <li class="nav-item dropdown">
+                    <!-- en la primera class manejo el color y tipo de letra de diego velasquez -->
+                  <a class="nav-link dropdown-toggle d-block text-light p-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon ion-md-albums"></i>
+                                                      Temporadas
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Los mas destacados</a>
+                  </div>
+
+                  <!-- <a href="#" class="d-block text-light p-3"><i class="icon ion-md-stats mr-2 lead"></i> Multimedia</a>
+                  <a href="#" class="d-block text-light p-3"><i class="icon ion-md-stats mr-2 lead"></i> Soundtrack</a> -->
+
+                  <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle d-block text-light p-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon ion-md-videocam"></i>
+                                                      Multimedia
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Soundtrack</a>
+                  </div>
+
+                  <a href="#" class="d-block text-light p-3"><i class="icon ion-md-person mr-2 lead"></i> Detrás de camaras </a>
+                  <a href="#" class="d-block text-light p-3"><i class="icon ion-md-cog mr-2 lead"></i> Reseñas</a>
+                  <a href="#" class="d-block text-light p-3"><i class="icon ion-md-cog mr-2 lead"></i> Colaboraciones</a>
+              </div>
+        </div>
+
+<!-- NAVAR -->
+
+         <!-- w-100 es width al 100% -->
+         <div class="w-100">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+                          <div class="container"> 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <form class="form-inline float-right my-2 d-inline-block">
+                    <input class="form-control mr-sm-2 float-right" type="search" placeholder="buscar" aria-label="buscar">
+                    <button class="btn btn-search float-right" type="submit"><i class="icon ion-md-search"></i></button>
+                  </form>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+
+                    <!-- <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li> -->
+                    <!-- <li class="nav-item dropdown"> -->
+
+                        <!-- en la primera class manejo el color y tipo de letra de diego velasquez -->
+
+                      <!-- <a class="nav-link dropdown-toggle d-block text-light p-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="assets/img/Captura de pantalla 2021-10-22 a la(s) 10.00.49.png" class="img-fluid rounded-circle avatar  mr-2">
+                        Diego velasquez
+                      </a> -->
+
+                      <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">mi perfil</a>
+                        <a class="dropdown-item" href="#">suscripción</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">cerrar sesión </a>
+                      </div> -->
+
+                    <!-- </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li> -->
+
+                  </ul>
+                  
+                </div>
+                          <!-- este div es del container  -->
+                          </div>
+              </nav> 
+
+                                                  <!-- img-fluid es para el responsive -->
+                                                  <!-- float-right acomoda la img a la derecha -->
+                                                  <!-- img-thumbnail bordes blancos  -->
+                <img src="assets/img/logo 3.png" class=" img-fluid img-thumbnail mx-auto d-block w-90 " >
+          
+
+
+              <div id="content"> 
+                           <!-- la class py-3 es para el espacio entre en titulo y el navar -->
+                  <section class="py-3">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-lg-9">
+                                            <!-- mb-0 es para que no tenga margen inferior -->
+                                            <!-- <h1 class="font-weight-bold mb-0">bienvenido diego</h1> -->
+                                  
+                                            <!-- text muted es para que este de color gris -->
+                                  <p class="lead text-muted align-self-center">Revisa la ultima información</p>
+                               </div>
+
+                               <div class="col-lg-3 d-flex">
+                                   <button class="btn btn-primary w-100 align-self-center">Descargar información</button>
+                               </div>
+
+                          </div>
+                      </div>
+                  </section>
+
+                  <!-- <section class="bg-mix"> -->
+                      <div class="container">
+                            <!-- el card son los bordes de la caja  -->
+                        <div class="card rounded-0">
+                            <div class="card-body">
+                                <div class="row">
+                                                                <!-- my-3 es un margen  -->
+
+                                                 <!-- el d-flex y el mx-auto es para centrat el texto -->
+
+                                    <!-- <div class="col-lg-3 d-flex stat my-3">
+                                        <div class="mx-auto">
+                                        <h6 class="text-muted">ingresos mensuales</h6>
+                                        <h3 class="font-weight-bold">50.000</h3>
+                                        <h6 class="text-succes"> <i class="icon ion-md-arrow-dropup-circle"></i> 50.50%</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 d-flex stat my-3">
+                                        <div class="mx-auto">
+                                        <h6 class="text-muted">ingresos mensuales</h6>
+                                        <h3 class="font-weight-bold">50.000</h3>
+                                        <h6 class="text-succes"> <i class="icon ion-md-arrow-dropup-circle"></i> 50.50%</h6>
+                                        </div>
+                                    </div> -->
+                                    
+                                    <div class="col-lg-6 d-flex stat my-100">
+                                        <div class="mx-auto">
+                                        <h3 class="font-weight-bold container-fluid">Resumen</h3>
+                                        <h6 class="text-muted">Sex Education es una serie de televisión distribuida por streaming británica de comedia dramática, creada por Laurie Nunn, que se estrenó el 11 de enero de 2019 en Netflix. Una segunda temporada se estrenó el 17 de enero de 2020 y la tercera temporada fue estrenada el 17 de septiembre de 2021.</h6>
+                                          
+                                        <!-- <h6 class="text-succes"> <i class="icon ion-md-arrow-dropup-circle"></i> 50.50%</h6> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 d-flex my-3">
+                                        <div class="mx-auto">
+                                            <img src="assets/img/4.jpeg" class="img-fluid img-thumbnail float-right d-block">
+                                        <!-- <h6 class="text-muted">ingresos mensuales</h6>
+                                        <h3 class="font-weight-bold">50.000</h3>
+                                        <h6 class="text-succes"> <i class="icon ion-md-arrow-dropup-circle"></i> 50.50%</h6> -->
+                                        
+                                        </div>
+                                    </div>
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="container">
+                        <div class="card rounded-0">
+                            <div class="card-body">
+                                <div class="row mx-auto ">
+                                    <div class="col-lg-8 d-flex my-100">
+                                        <div class="mx-auto">
+                                        <h3 class="font-weight-bold container-fluid">Capitulos y Temporadas</h3>
+                                        <h6 class="text-muted">La moraleja aquí es que a veces es necesario hablar y confesar todo lo que nos está pasando para recibir el apoyo que tanto necesitamos. Y sí, es doloroso y difícil recordar situaciones como esta, pero denunciarlo es importante y sobre todo, si tú eres testig@ de una agresión, no lo dejes pasar.</h6>
+                                          
+                                        
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                      </div>
+                  <!-- </section> -->
+                  
+              </div>
+         </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

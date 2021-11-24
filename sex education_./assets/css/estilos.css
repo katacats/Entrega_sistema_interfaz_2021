@@ -1,0 +1,104 @@
+/* color de fondo  */
+:root {
+    --primary: #e95353;
+    --light: #ffffff;
+    --grey: #efefef;
+}
+
+body  {
+   overflow: hidden;
+   font-weight: 300;
+   font-family: "Mulish", sans-serif ;
+   color: var(--primary) ;
+   background-color: rgb(255, 226, 226);
+   background-size: cover;
+   height: 300vh;
+   transition: 0.3s;
+}
+
+    /* para que los textos no tengan una linea debajo al seleccionar  */
+a:hover {
+    text-decoration: none;
+}
+
+.bg-primary {
+   background-color: var(--primary)!important; }
+
+    /* es para la el color de la barra del buscador  */
+.bg-light{ 
+    background-color: var(--primary)!important; }
+
+.bg-mix {background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0); }
+
+.btn { 
+    border: 0;}
+
+.btn-primary { 
+    background-color: var(--primary); }
+
+.btn-primary:hover {
+    background-color: var(--primary); }
+
+
+/* .container {
+    background-color: rgb(255, 226, 226);
+    background-size: cover;
+    height: 40vh;
+    transition: 0.3s;
+} */
+
+#sidebar-container {
+    min-height: 100vh;  
+    
+}
+
+#sidebar-container .logo {
+    padding: .875rem 1.25rem;
+    
+}
+
+#sidebar-container .menu {
+    width: 18rem;
+    
+}
+
+.btn-search  {
+  right: 5px;
+}
+
+.avatar {
+   max-width: 35px;
+}
+
+/* es para poder hacer scroll en el menu y no en el nav  */
+#content {
+  overflow-y: auto;
+  height: 100vh;
+  padding-bottom: 5rem; ;
+  
+}
+
+/* division de los numeros en el menu (la linea gris de entre medio) */
+.stat {
+    border-right: 1px solid var(--grey);
+}
+
+.contenido__logo .card_logo  {
+    align-items: center;
+    display: flex;
+}
+
+@media (max-width: 768px)  {
+    #sidebar-container {
+        display: none;
+        z-index: 1;
+    background: #F04444;
+    position: fixed;
+    top: 70px;
+    width: 250px;
+    height: calc(100% - 9%);
+    transition: 0.3s;
+    transition-property: width;
+    overflow: auto;
+}
+}
